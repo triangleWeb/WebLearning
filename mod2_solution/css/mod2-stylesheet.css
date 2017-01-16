@@ -50,6 +50,7 @@ section{
 	margin-bottom: 0;
 	margin-top: 0;
 	padding: 5px;
+  background-color: #DB7093;
 }
 
 #beef {
@@ -63,6 +64,8 @@ section{
 	margin-bottom: 0;
 	margin-top: 0;
 	padding: 5px;
+  color: white;
+  background-color: #CD5C5C;
 }
 
 #sushi {
@@ -75,8 +78,8 @@ section{
 	font-size: 125%;
 	margin-bottom: 0;
 	margin-top: 0;
-	color: white;
 	padding: 5px;
+  background-color: #FFA500;
 }
 
 .row {
