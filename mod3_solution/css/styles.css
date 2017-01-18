@@ -12,46 +12,38 @@ body {
   border: 0;
 }
 
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
 #chicken {
-  border: 1px solid black;
   text-align: center;
-  width: 30%;
-  margin-left: 70%;
   font-family: Georgia,sans-serif;
   font-weight: bold;
   font-size: 125%;
   margin-bottom: 0;
   margin-top: 0;
   padding: 5px;
-  background-color: #FFFF00;
 }
 
 #beef {
-  border: 1px solid black;
   text-align: center;
-  width: 30%;
-  margin-left: 70%;
   font-family: Georgia,sans-serif;
   font-weight: bold;
   font-size: 125%;
   margin-bottom: 0;
   margin-top: 0;
   padding: 5px;
-  background-color: #FF1439;
 }
 
 #sushi {
-  border: 1px solid black;
   text-align: center;
-  width: 30%;
-  margin-left: 70%;
   font-family: Georgia,sans-serif;
   font-weight: bold;
   font-size: 125%;
   margin-bottom: 0;
   margin-top: 0;
-  background-color: #6495ED;
-  color: white;
   padding: 5px;
 }
 
@@ -101,4 +93,14 @@ hr {
 .item {
   color: white;
   font-size: 1.2em;
+  text-align: center;
+}
+
+section {
+	border:	1px solid gray;
+	background-color: #F0F0F0;
+	width: 100%;
+	height: auto;
+	color: black;
+	overflow: auto;
 }
