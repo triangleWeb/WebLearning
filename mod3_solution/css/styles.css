@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
   font-size: 16px;
   color: #fff;
@@ -5,6 +9,9 @@ body {
   font-family: 'Oxygen', sans-serif;
 }
 
+.text-center {
+  text-align: center;
+}
 /** HEADER **/
 #header-nav {
   background-color: #f6b319;
@@ -12,9 +19,15 @@ body {
   border: 0;
 }
 
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+  border: 1px solid #61122f;
+}
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -30px;
+}
+#nav-list {
+  color: white;
 }
 
 #chicken {
@@ -84,10 +97,6 @@ body {
 }
 .navbar-brand p span { /* Star-K */
   vertical-align: middle;
-}
-
-hr {
-  border-color: white;
 }
 
 .item {
