@@ -1,63 +1,86 @@
+/* Base Styles */
+
 * {
 	box-sizing: border-box;
 }
 
+h1 {
+	font-family: Brushstroke, fantasy;
+	color: #000000;
+}
+
 body {
-  font-size: 16px;
-  color: #fff;
-  background-color: #61122f;
-  font-family: 'Oxygen', sans-serif;
+	background-image: url("background.jpg");
+	background-color: #FEF5CA;
+
 }
 
-.text-center {
-  text-align: center;
-}
-/** HEADER **/
-#header-nav {
-  background-color: #f6b319;
-  border-radius: 0;
-  border: 0;
+p {
+	padding: 10px;
+	margin: 0;
 }
 
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
-  border: 1px solid #61122f;
+.container {
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
 }
-.navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: -30px;
-}
-#nav-list {
-  color: white;
+
+section {
+	border:	1px solid black;
+	background-color: #00FF99;
+	width: 100%;
+	height: auto;
+	font-family: Helvetica;
+	color: black;
+	position: relative;
+	overflow: auto;
 }
 
 #chicken {
-  text-align: center;
-  font-family: Georgia,sans-serif;
-  font-weight: bold;
-  font-size: 125%;
-  margin-bottom: 0;
-  margin-top: 0;
-  padding: 5px;
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: Georgia,sans-serif;
+	font-weight: bold;
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+	background-color: #FFFF00;
 }
 
 #beef {
-  text-align: center;
-  font-family: Georgia,sans-serif;
-  font-weight: bold;
-  font-size: 125%;
-  margin-bottom: 0;
-  margin-top: 0;
-  padding: 5px;
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: Georgia,sans-serif;
+	font-weight: bold;
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+	background-color: #FF1439;
 }
 
 #sushi {
-  text-align: center;
-  font-family: Georgia,sans-serif;
-  font-weight: bold;
-  font-size: 125%;
-  margin-bottom: 0;
-  margin-top: 0;
-  padding: 5px;
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: Georgia,sans-serif;
+	font-weight: bold;
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	background-color: #6495ED;
+	color: white;
+	padding: 5px;
 }
 
 #chicken-div {
@@ -75,55 +98,44 @@ body {
   margin-top: 10px;
 }
 
-.navbar-brand h1 { /* Restaurant name */
-  font-family: 'Lora', serif;
-  color: #557c3e;
+.navbar-brand {
+  font-size: 2em;
+  border: 0 0 10px 10px;
+  color: #FFFFFF;
+}
+
+#header-nav {
+  border: 0;
+  background-color: #FC5F06;
+  color: #FFFFFF;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+.nav-header {
+  background-color: #FFFFFF;
+}
+
+.nav-brand {
+  color: #FFFFFF;
   font-size: 1.5em;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: .75;
-}
-.navbar-brand a:hover, .navbar-brand a:focus {
-  text-decoration: none;
-}
-.navbar-brand p { /* Kosher cert */
-  color: #000;
-  text-transform: uppercase;
-  font-size: .7em;
-  margin-top: 15px;
-}
-.navbar-brand p span { /* Star-K */
-  vertical-align: middle;
 }
 
 #nav-list {
-  margin-top: 10px;
+  color: white;
 }
-#nav-list a {
-  color: #951C49;
-  text-align: center;
-}
-#nav-list a:hover {
-  background: #E7E7E7;
-}
-#nav-list a span {
-  font-size: 1.8em;
+
+hr {
+  border-color: white;
 }
 
 .item {
   color: white;
   font-size: 1.2em;
-  text-align: center;
-}
-
-section {
-	border:	1px solid gray;
-	background-color: #F0F0F0;
-	width: 100%;
-	height: auto;
-	color: black;
-	overflow: auto;
 }
